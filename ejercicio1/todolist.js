@@ -11,7 +11,6 @@ const agregarBtn = document.getElementById("agregarBtn");
 const listaTareas = document.getElementById("listaTareas");
 const nuevaTareaInput = document.getElementById("nuevaTarea");
 
-// función que crea un <li> con botones
 function crearTarea(texto) {
   const li = document.createElement("li");
   li.textContent = texto;
